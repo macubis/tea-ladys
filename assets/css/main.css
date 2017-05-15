@@ -1,0 +1,85 @@
+*{
+	font-family: 'Oswald', sans-serif;
+}
+
+body{
+	background-color: #CEF6CE;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+}
+
+header h1{
+	font-family: URW Chancery L;
+	font-size: 55px;
+	background-color: #A9F5A9;
+	color: #0B610B;
+	text-align: center;
+	padding: 30px;
+	margin: 0;
+}
+
+
+.formulario{
+	background-color: #A9F5A9;
+	width: 80%;
+	margin: 0 auto;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+#formulario p{
+	color: #0B610B;
+	text-align: center;
+}
+
+.formulario label{
+	color:#0B610B ;
+	size: 20px;
+	font-weight: bold;
+	font-family: 'Liberation Serif', sans-serif;
+	display: block;
+	margin: 8px 0;
+}
+.formulario input{
+	display: block;
+	text-align: center;
+}
+.formulario button{
+	display: block;
+	width: 100%;
+	padding: 10px;
+	background-color: rgba(255,255,255, 0.2);
+	border: 1px solid rgba(245,245,245, 0.5);
+	box-sizing: border-box;
+	color: whitesmoke;
+}
+
+.formulario select option{
+	color:#0B610B;
+	padding: 10px;	
+}
+
+.formulario input[type='checkbox']{
+	margin-top: 13px;
+	margin-right: 10px;
+	background-color: rgba(255,255,255, 0.2);
+	width: auto;
+	float: center;
+}
+
+.special-lab{
+	width: auto;
+	color:#0B610B;
+	float: left;
+}
+
+.formulario button{
+	background-color:#0B610B ;
+	border: none;
+	font-size: 20px;
+	padding: 20px;
+	font-weight: bold;
+}
